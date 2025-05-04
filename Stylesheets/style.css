@@ -80,9 +80,10 @@ nav {
 .nav-container {
     height: 70%;
     width: 80%;
-    background-color: rgba(255, 255, 255, 0.044);
+    /* background-color: rgba(255, 255, 255, 0.044);
     border: 1px solid white;
-    border-radius: 50px;
+    border-radius: 50px; */
+    border-bottom: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,6 +92,7 @@ nav {
 .nav-left h1 {
     padding-left: 5vw;
     font-size: 2vw;
+    text-transform: uppercase;
 }
 
 #nav-desk-container {
@@ -122,22 +124,26 @@ nav {
 
 #elem-1-1 {
     text-decoration: none;
+    font-weight: 900;
     /* transform: translateY(-100%); */
 }
 
 #elem-1-2 {
     transform: translateY(0%);
     text-decoration: none;
+    font-weight: 900;
 }
 
 #elem-2-1 {
     text-decoration: none;
+    font-weight: 900;
     /* transform: translateY(-100%); */
 }
 
 #elem-2-2 {
     transform: translateY(0%);
     text-decoration: none;
+    font-weight: 900;
 }
 
 .nav-right {
